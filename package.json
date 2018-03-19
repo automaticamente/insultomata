@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "stream-to-array": "^2.3.0",
+    "tinycolor2": "^1.4.1",
     "treegrammar": "^1.0.3"
   }
 }
