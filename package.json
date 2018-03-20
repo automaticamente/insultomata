@@ -13,7 +13,9 @@
   "dependencies": {
     "deepmerge": "^2.1.0",
     "lodash": "^4.17.5",
+    "redis": "^2.8.0",
     "stream-to-array": "^2.3.0",
-    "treegrammar": "^1.0.5"
+    "treegrammar": "^1.0.5",
+    "twit": "^2.2.9"
   }
 }

@@ -1,19 +1,11 @@
 [
   {
-    "m": "Apoucado",
-    "f": "Apoucada"
-  },
-  {
     "m": "Argalleiro",
     "f": "Argalleira"
   },
   {
     "m": "Atrapallado",
     "f": "Atrapallada"
-  },
-  {
-    "m": "Avarento",
-    "f": "Avarenta"
   },
   {
     "m": "Babeco",
@@ -252,10 +244,6 @@
     "f": "Comellona"
   },
   {
-    "m": "Coto",
-    "f": "Cota"
-  },
-  {
     "m": "Cotroso",
     "f": "Cotrosa"
   },
@@ -292,10 +280,6 @@
     "f": "Esmorgana"
   },
   {
-    "m": "Fachada",
-    "f": "Fachada"
-  },
-  {
     "m": "Fachendoso",
     "f": "Fachendosa"
   },
@@ -308,24 +292,12 @@
     "f": "Faldeira"
   },
   {
-    "m": "Falso",
-    "f": "Falsa"
-  },
-  {
     "m": "Fandangueiro",
     "f": "Fandangueira"
   },
   {
     "m": "Fanfarrón",
     "f": "Fanfarrona"
-  },
-  {
-    "m": "Fantasmón",
-    "f": "Fantasmona"
-  },
-  {
-    "m": "Fantoche",
-    "f": "Fantoche"
   },
   {
     "m": "Fañoso",
@@ -380,10 +352,6 @@
     "f": "Farruca"
   },
   {
-    "m": "Farsante",
-    "f": "Farsante"
-  },
-  {
     "m": "Fazañeiro",
     "f": "Fazañeira"
   },
@@ -394,10 +362,6 @@
   {
     "m": "Fedello",
     "f": "Fedella"
-  },
-  {
-    "m": "Figurón",
-    "f": "Figurona"
   },
   {
     "m": "Finchado",
@@ -414,10 +378,6 @@
   {
     "m": "Fuciñudo",
     "f": "Fuciñuda"
-  },
-  {
-    "m": "Gago",
-    "f": "Gaga"
   },
   {
     "m": "Galdracha",
@@ -452,20 +412,12 @@
     "f": "Gallofeira"
   },
   {
-    "m": "Galo",
-    "f": "Gala"
-  },
-  {
     "m": "Galopín",
     "f": "Galopina"
   },
   {
     "m": "Gandulo",
     "f": "Gandula"
-  },
-  {
-    "m": "Gangoso",
-    "f": "Gangosa"
   },
   {
     "m": "Garafeteiro",
@@ -476,20 +428,12 @@
     "f": "Garatuxeira"
   },
   {
-    "m": "Garza",
-    "f": "Garza"
-  },
-  {
     "m": "Ghaleador",
     "f": "Ghaleadora"
   },
   {
     "m": "Goldracha",
     "f": "Goldracha"
-  },
-  {
-    "m": "Gordecho",
-    "f": "Gordecha"
   },
   {
     "m": "Gordeiro",
@@ -502,22 +446,6 @@
   {
     "m": "Gorxón",
     "f": "Gorxona"
-  },
-  {
-    "m": "Gruñón",
-    "f": "Gruñona"
-  },
-  {
-    "m": "Indolente",
-    "f": "Indolente"
-  },
-  {
-    "m": "Inquieto",
-    "f": "Inquieta"
-  },
-  {
-    "m": "Irónico",
-    "f": "Irónica"
   },
   {
     "m": "Lacaceiro",
@@ -624,28 +552,12 @@
     "f": "Loubana"
   },
   {
-    "m": "Louco",
-    "f": "Louca"
-  },
-  {
-    "m": "Lunático",
-    "f": "Lunática"
-  },
-  {
     "m": "Lurpio",
     "f": "Lurpia"
   },
   {
     "m": "Malfeitor",
     "f": "Malfeitora"
-  },
-  {
-    "m": "Malicioso",
-    "f": "Maliciosa"
-  },
-  {
-    "m": "Malintencionado",
-    "f": "Malintencionada"
   },
   {
     "m": "Malmirado",
@@ -696,16 +608,8 @@
     "f": "Melindreira"
   },
   {
-    "m": "Mentireiro",
-    "f": "Mentireira"
-  },
-  {
     "m": "Mequeiro",
     "f": "Mequeira"
-  },
-  {
-    "m": "Mesquiño",
-    "f": "Mesquiña"
   },
   {
     "m": "Mexerica",
@@ -717,7 +621,7 @@
   },
   {
     "m": "Mimarracheiro",
-    "f": "Mimarreira"
+    "f": "Mimarracheira"
   },
   {
     "m": "Moinante",
@@ -738,10 +642,6 @@
   {
     "m": "Ñato",
     "f": "Ñata"
-  },
-  {
-    "m": "Ñoño",
-    "f": "Ñoña"
   },
   {
     "m": "Osmón",
@@ -765,7 +665,7 @@
   },
   {
     "m": "Padexeiro",
-    "f": "Padexeiro"
+    "f": "Padexeira"
   },
   {
     "m": "Paduán",
@@ -808,10 +708,6 @@
     "f": "Palanquina"
   },
   {
-    "m": "Paleto",
-    "f": "Paleta"
-  },
-  {
     "m": "Palurdo",
     "f": "Palurda"
   },
@@ -822,10 +718,6 @@
   {
     "m": "Panchés",
     "f": "Panchesa"
-  },
-  {
-    "m": "Pancho",
-    "f": "Pancha"
   },
   {
     "m": "Pándego",
@@ -846,10 +738,6 @@
   {
     "m": "Pantalleiro",
     "f": "Pantalleira"
-  },
-  {
-    "m": "Pantasmón",
-    "f": "Pantasmona"
   },
   {
     "m": "Panzudo",
@@ -916,10 +804,6 @@
     "f": "Pedichona"
   },
   {
-    "m": "Pícaro",
-    "f": "Pícara"
-  },
-  {
     "m": "Pillabán",
     "f": "Pillabana"
   },
@@ -942,10 +826,6 @@
   {
     "m": "Porcallán",
     "f": "Porcallana"
-  },
-  {
-    "m": "Porco",
-    "f": "Porca"
   },
   {
     "m": "Porfiador",
@@ -1080,10 +960,6 @@
     "f": "Rosmona"
   },
   {
-    "m": "Rufián",
-    "f": "Rufiana"
-  },
-  {
     "m": "Rufo",
     "f": "Rufa"
   },
@@ -1092,32 +968,12 @@
     "f": "Sacaespiñas"
   },
   {
-    "m": "Sobón",
-    "f": "Sobona"
-  },
-  {
     "m": "Sórneas",
     "f": "Sórneas"
   },
   {
     "m": "Sorneón",
     "f": "Sorneona"
-  },
-  {
-    "m": "Tacaño",
-    "f": "Tacaña"
-  },
-  {
-    "m": "Tardón",
-    "f": "Tardona"
-  },
-  {
-    "m": "Tatexo",
-    "f": "Tatexa"
-  },
-  {
-    "m": "Tato",
-    "f": "Tata"
   },
   {
     "m": "Teimoso",
@@ -1154,18 +1010,6 @@
   {
     "m": "Tolo",
     "f": "Tolainas"
-  },
-  {
-    "m": "Tragón",
-    "f": "Tragona"
-  },
-  {
-    "m": "Traicioeiro",
-    "f": "Traicioeira"
-  },
-  {
-    "m": "Traidor",
-    "f": "Traidora"
   },
   {
     "m": "Trampulleiro",
@@ -1216,24 +1060,12 @@
     "f": "Trouleira"
   },
   {
-    "m": "Truhán",
-    "f": "Truhana"
-  },
-  {
-    "m": "Ufano",
-    "f": "Ufana"
-  },
-  {
     "m": "Vago",
     "f": "Vaga"
   },
   {
     "m": "Virachaquetas",
     "f": "Virachaquetas"
-  },
-  {
-    "m": "Xan",
-    "f": "Xana"
   },
   {
     "m": "Xaropeiro",
@@ -1284,14 +1116,6 @@
     "f": "Zancaxosa"
   },
   {
-    "m": "Zancudo",
-    "f": "Zancuda"
-  },
-  {
-    "m": "Zángano",
-    "f": "Zángana"
-  },
-  {
     "m": "Zarabeto",
     "f": "Zarabeta"
   },
@@ -1314,18 +1138,6 @@
   {
     "m": "Zarapalleiro",
     "f": "Zarapalleira"
-  },
-  {
-    "m": "Zopenco",
-    "f": "Zopenca"
-  },
-  {
-    "m": "Zoquete",
-    "f": "Zoqueta"
-  },
-  {
-    "m": "Zopo",
-    "f": "Zopa"
   },
   {
     "m": "Zuíño",

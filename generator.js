@@ -2,7 +2,7 @@ const TG = require('treegrammar');
 const merge = require('deepmerge');
 const { sample } = require('lodash');
 
-const stitchit = require('./lib/stitchit');
+const stitchit = require('./lib/stitcher');
 
 const insults = require('./data/insultos.json');
 const genericRules = require('./data/generic-rules.json');
@@ -30,11 +30,6 @@ module.exports.generator = function generator(gender) {
       '<insulto>': ima
     },
     n: {
-      '<template>': [
-        'Es <insulto> e <insulto>, vai <accion> <accion_lugar>',
-        'Es <insulto>',
-        'Es <insulto> <modificador>'
-      ],
       '<insulto>': ine
     }
   };
