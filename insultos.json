@@ -1,339 +1,1342 @@
 [
-  "Apoucado",
-  "Argalleiro",
-  "Atrapallado",
-  "Avarento",
-  "Babeco",
-  "Babiolo",
-  "Badoco",
-  "Badulaque",
-  "Baduán",
-  "Baldreu",
-  "Baldrogas",
-  "Baltroeiro",
-  "Bandallo",
-  "Baralleiro",
-  "Barallocas",
-  "Barbuzán",
-  "Barrigudo",
-  "Bulebule",
-  "Bulideiro",
-  "Burlateiro",
-  "Burlego",
-  "Burrán",
-  "Buzaco",
-  "Cabalón",
-  "Cabalote",
-  "Cacharreiro",
-  "Cacharulo",
-  "Cachazudo",
-  "Cagado",
-  "Cagainas",
-  "Cagaíñas",
-  "Cagán",
-  "Cagarolas",
-  "Caguelo",
-  "Caguiñas",
-  "Camanduleiro",
-  "Candonga",
-  "Caneludo",
-  "Canfurneiro",
-  "Canchés",
-  "Caprichoso",
-  "Caradecona",
-  "Carallán",
-  "Catramoia",
-  "Chafulleiro",
-  "Chambón",
-  "Chapón",
-  "Charlatán",
-  "Chilón",
-  "Chimpafigos",
-  "Chocho",
-  "Chocalleiro",
-  "Choqueiro",
-  "Choracricas",
-  "Choranabizas",
-  "Choricas",
-  "Choromicas",
-  "Choromiqueiro",
-  "Chosco",
-  "Chupatintas",
-  "Chupón",
-  "Churriana",
-  "Cocho",
-  "Coitado",
-  "Comellón",
-  "Coto",
-  "Cotroso",
-  "Cubilón",
-  "Cutre",
-  "Desasisado",
-  "Deslinguado",
-  "Egoísta",
-  "Ególatra",
-  "Energúmeno",
-  "Esmorgante",
-  "Fachada",
-  "Fachendoso",
-  "Falangueiro",
-  "Faldeiro",
-  "Falso",
-  "Fandangueiro",
-  "Fanfarrón",
-  "Fantasmón",
-  "Fantoche",
-  "Fañoso",
-  "Farandoleiro",
-  "Farfallán",
-  "Farfalleiro",
-  "Farfallón",
-  "Farfantón",
-  "Farfullas",
-  "Fargalleiro",
-  "Fargallón",
-  "Farrapeiro",
-  "Farrapento",
-  "Farrista",
-  "Farruco",
-  "Farsante",
-  "Fazañeiro",
-  "Fazuleiro",
-  "Fedello",
-  "Figurón",
-  "Finchado",
-  "Folgazán",
-  "Fuchicas",
-  "Fuciñudo",
-  "Gago",
-  "Galdracha",
-  "Galdrán",
-  "Galdrapo",
-  "Galdrogas",
-  "Galdrumeiro",
-  "Galdrupas",
-  "Galistreiro",
-  "Gallofeiro",
-  "Galo",
-  "Galopín",
-  "Gandulo",
-  "Gangoso",
-  "Garafeteiro",
-  "Garatuxeiro",
-  "Garza",
-  "Ghaleador",
-  "Goldracha",
-  "Gordecho",
-  "Gordeiro",
-  "Gorlón",
-  "Gorxón",
-  "Gruñón",
-  "Indolente",
-  "Inquieto",
-  "Irónico",
-  "Lacaceiro",
-  "Lacazán",
-  "Lagoñeiro",
-  "Lambecricas",
-  "Lambecodias",
-  "Lambefoulas",
-  "Lambecús",
-  "Lambetas",
-  "Lambeteiro",
-  "Lambisqueiro",
-  "Lambón",
-  "Lambuxeiro",
-  "Lambuzas",
-  "Lampantín",
-  "Langrán",
-  "Lapatín",
-  "Larbuceiro",
-  "Lareta",
-  "Larpeiro",
-  "Larpón",
-  "Lelo",
-  "Lerchán",
-  "Lercho",
-  "Loamiñeiro",
-  "Lorcho",
-  "Loubán",
-  "Louco",
-  "Lunático",
-  "Lurpio",
-  "Malfeitor",
-  "Malicioso",
-  "Malintencionado",
-  "Malmirado",
-  "Malpocado",
-  "Manco",
-  "Maneto",
-  "Maroto",
-  "Marrán",
-  "Marulo",
-  "Marrecas",
-  "Mastalleiro",
-  "Matachín",
-  "Meixelas",
-  "Melindreiro",
-  "Mentireiro",
-  "Mequeiro",
-  "Mesquiño",
-  "Mexerica",
-  "Mexiriqueiro",
-  "Milhomes",
-  "Mimarracheiro",
-  "Moinante",
-  "Mornias",
-  "Nugalleiro",
-  "Ñácaras",
-  "Ñato",
-  "Ñoño",
-  "Osmón",
-  "Pachán",
-  "Pachorrento",
-  "Pachorro",
-  "Padexas",
-  "Padexeiro",
-  "Paduán",
-  "Pagüelo",
-  "Paifoco",
-  "Pailaroco",
-  "Paizoco",
-  "Pailán",
-  "Palabea",
-  "Palabreiro",
-  "Palafustrán",
-  "Palanquín",
-  "Paleto",
-  "Palurdo",
-  "Pampo",
-  "Panchés",
-  "Pancho",
-  "Pándego",
-  "Pandorca",
-  "Panolo",
-  "Panqueiro",
-  "Pantalleiro",
-  "Pantasmón",
-  "Panzudo",
-  "Panximicas",
-  "Panximiqueiro",
-  "Panxolas",
-  "Papainas",
-  "Papafilloas",
-  "Papaleisón",
-  "Papamoscas",
-  "Papán",
-  "Paparón",
-  "Papoio",
-  "Parrandeiro",
-  "Parsimonioso",
-  "Parviolo",
-  "Parvo",
-  "Pedichón",
-  "Pícaro",
-  "Pillabán",
-  "Pillo",
-  "Pimpín",
-  "Pingallo",
-  "Pipiolo",
-  "Porcallán",
-  "Porco",
-  "Porfiador",
-  "Porfión",
-  "Pousafoles",
-  "Pousón",
-  "Prea",
-  "Preguiceiro",
-  "Presumido",
-  "Presuntuoso",
-  "Prosma",
-  "Rabechas",
-  "Rabelludo",
-  "Rabisaco",
-  "Rallante",
-  "Rancoroso",
-  "Rañado",
-  "Rañán",
-  "Rañento",
-  "Rañón",
-  "Rañoso",
-  "Rapaceiro",
-  "Rapañeiro",
-  "Rapatundas",
-  "Raposeiro",
-  "Raspiñeiro",
-  "Remendafoles",
-  "Rexoubeiro",
-  "Rifante",
-  "Rifeiro",
-  "Rillachavos",
-  "Rillote",
-  "Rincheiro",
-  "Roñoso",
-  "Rosmón",
-  "Rufián",
-  "Rufo",
-  "Sacaespiñas",
-  "Sobón",
-  "Sórneas",
-  "Sorneón",
-  "Tacaño",
-  "Tardón",
-  "Tatexo",
-  "Tato",
-  "Teimoso",
-  "Terco",
-  "Testán",
-  "Toco",
-  "Tolainas",
-  "Toleirón",
-  "Tolitates",
-  "Tolleito",
-  "Tolo",
-  "Tragón",
-  "Traicioeiro",
-  "Traidor",
-  "Trampulleiro",
-  "Trampuzas",
-  "Tranfullas",
-  "Tranfulleiro",
-  "Trangalleiro",
-  "Trangallón",
-  "Trapaceiro",
-  "Trapalleiro",
-  "Traste",
-  "Trasto",
-  "Traveso",
-  "Trouleiro",
-  "Truhán",
-  "Ufano",
-  "Vago",
-  "Virachaquetas",
-  "Xan",
-  "Xaropeiro",
-  "Xirico",
-  "Xirifeiro",
-  "Xirigaito",
-  "Xogantín",
-  "Xornas",
-  "Xoto",
-  "Xudas",
-  "Xurafaz",
-  "Zaíno",
-  "Zalapastrán",
-  "Zancaxoso",
-  "Zancudo",
-  "Zángano",
-  "Zarabeto",
-  "Zaragalleiro",
-  "Zaragateiro",
-  "Zaramalleiro",
-  "Zarangalleiro",
-  "Zarapalleiro",
-  "Zopenco",
-  "Zoquete",
-  "Zopo",
-  "Zuíño",
-  "Zunado"
+  {
+    "m": "Apoucado",
+    "f": "Apoucada"
+  },
+  {
+    "m": "Argalleiro",
+    "f": "Argalleira"
+  },
+  {
+    "m": "Atrapallado",
+    "f": "Atrapallada"
+  },
+  {
+    "m": "Avarento",
+    "f": "Avarenta"
+  },
+  {
+    "m": "Babeco",
+    "f": "Babeca"
+  },
+  {
+    "m": "Babiolo",
+    "f": "Babiola"
+  },
+  {
+    "m": "Badoco",
+    "f": "Badoca"
+  },
+  {
+    "m": "Badulaque",
+    "f": "Badulaque"
+  },
+  {
+    "m": "Baduán",
+    "f": "Baduana"
+  },
+  {
+    "m": "Baldreu",
+    "f": "Baldreu"
+  },
+  {
+    "m": "Baldrogas",
+    "f": "Baldorgas"
+  },
+  {
+    "m": "Baltroeiro",
+    "f": "Baltroeira"
+  },
+  {
+    "m": "Bandallo",
+    "f": "Bandalla"
+  },
+  {
+    "m": "Baralleiro",
+    "f": "Baralleira"
+  },
+  {
+    "m": "Barallocas",
+    "f": "Barallocas"
+  },
+  {
+    "m": "Barbuzán",
+    "f": "Barbuzana"
+  },
+  {
+    "m": "Barrigudo",
+    "f": "Barriguda"
+  },
+  {
+    "m": "Bulebule",
+    "f": "Bulebule"
+  },
+  {
+    "m": "Bulideiro",
+    "f": "Bulideira"
+  },
+  {
+    "m": "Burlateiro",
+    "f": "Burlateira"
+  },
+  {
+    "m": "Burlego",
+    "f": "Burlega"
+  },
+  {
+    "m": "Burrán",
+    "f": "Burrana"
+  },
+  {
+    "m": "Buzaco",
+    "f": "Buzaca"
+  },
+  {
+    "m": "Cabalón",
+    "f": "Cabalona"
+  },
+  {
+    "m": "Cabalote",
+    "f": "Cabalota"
+  },
+  {
+    "m": "Cacharreiro",
+    "f": "Cacharreira"
+  },
+  {
+    "m": "Cacharulo",
+    "f": "Cacharula"
+  },
+  {
+    "m": "Cachazudo",
+    "f": "Cachazudo"
+  },
+  {
+    "m": "Cagado",
+    "f": "Cagada"
+  },
+  {
+    "m": "Cagainas",
+    "f": "Cagainas"
+  },
+  {
+    "m": "Cagaíñas",
+    "f": "Cagaíñas"
+  },
+  {
+    "m": "Cagán",
+    "f": "Cagana"
+  },
+  {
+    "m": "Cagarolas",
+    "f": "Cagarolas"
+  },
+  {
+    "m": "Caguelo",
+    "f": "Caguela"
+  },
+  {
+    "m": "Caguiñas",
+    "f": "Caguiñas"
+  },
+  {
+    "m": "Camanduleiro",
+    "f": "Camanduleira"
+  },
+  {
+    "m": "Candonga",
+    "f": "Candonga"
+  },
+  {
+    "m": "Caneludo",
+    "f": "Caneluda"
+  },
+  {
+    "m": "Canfurneiro",
+    "f": "Canfurneira"
+  },
+  {
+    "m": "Canchés",
+    "f": "Canchesa"
+  },
+  {
+    "m": "Caprichoso",
+    "f": "Caprichosa"
+  },
+  {
+    "m": "Caradecona",
+    "f": "Caradecona"
+  },
+  {
+    "m": "Carallán",
+    "f": "Carallana"
+  },
+  {
+    "m": "Catramoia",
+    "f": "Catramola"
+  },
+  {
+    "m": "Chafulleiro",
+    "f": "Chafulleira"
+  },
+  {
+    "m": "Chambón",
+    "f": "Chambona"
+  },
+  {
+    "m": "Chapón",
+    "f": "Chapona"
+  },
+  {
+    "m": "Charlatán",
+    "f": "Charlatana"
+  },
+  {
+    "m": "Chilón",
+    "f": "Chilona"
+  },
+  {
+    "m": "Chimpafigos",
+    "f": "Chimpafigos"
+  },
+  {
+    "m": "Chocalleiro",
+    "f": "Chocalleira"
+  },
+  {
+    "m": "Choqueiro",
+    "f": "Choqueira"
+  },
+  {
+    "m": "Choracricas",
+    "f": "Choracricas"
+  },
+  {
+    "m": "Choranabizas",
+    "f": "Choranabizas"
+  },
+  {
+    "m": "Choricas",
+    "f": "Choricas"
+  },
+  {
+    "m": "Choromicas",
+    "f": "Choromicas"
+  },
+  {
+    "m": "Choromiqueiro",
+    "f": "Choromiqueira"
+  },
+  {
+    "m": "Chosco",
+    "f": "Chosca"
+  },
+  {
+    "m": "Chupatintas",
+    "f": "Chupatintas"
+  },
+  {
+    "m": "Chupón",
+    "f": "Chupona"
+  },
+  {
+    "m": "Churriana",
+    "f": "Churriana"
+  },
+  {
+    "m": "Cocho",
+    "f": "Cocha"
+  },
+  {
+    "m": "Coitado",
+    "f": "Coitada"
+  },
+  {
+    "m": "Comellón",
+    "f": "Comellona"
+  },
+  {
+    "m": "Coto",
+    "f": "Cota"
+  },
+  {
+    "m": "Cotroso",
+    "f": "Cotrosa"
+  },
+  {
+    "m": "Cubilón",
+    "f": "Cubilona"
+  },
+  {
+    "m": "Cutre",
+    "f": "Cutre"
+  },
+  {
+    "m": "Desasisado",
+    "f": "Desasisada"
+  },
+  {
+    "m": "Deslinguado",
+    "f": "Deslinguada"
+  },
+  {
+    "m": "Egoísta",
+    "f": "Egoísta"
+  },
+  {
+    "m": "Ególatra",
+    "f": "Ególatra"
+  },
+  {
+    "m": "Energúmeno",
+    "f": "Energúmena"
+  },
+  {
+    "m": "Esmorgante",
+    "f": "Esmorgana"
+  },
+  {
+    "m": "Fachada",
+    "f": "Fachada"
+  },
+  {
+    "m": "Fachendoso",
+    "f": "Fachendosa"
+  },
+  {
+    "m": "Falangueiro",
+    "f": "Falangueira"
+  },
+  {
+    "m": "Faldeiro",
+    "f": "Faldeira"
+  },
+  {
+    "m": "Falso",
+    "f": "Falsa"
+  },
+  {
+    "m": "Fandangueiro",
+    "f": "Fandangueira"
+  },
+  {
+    "m": "Fanfarrón",
+    "f": "Fanfarrona"
+  },
+  {
+    "m": "Fantasmón",
+    "f": "Fantasmona"
+  },
+  {
+    "m": "Fantoche",
+    "f": "Fantoche"
+  },
+  {
+    "m": "Fañoso",
+    "f": "Fañosa"
+  },
+  {
+    "m": "Farandoleiro",
+    "f": "Farandoleira"
+  },
+  {
+    "m": "Farfallán",
+    "f": "Farfallana"
+  },
+  {
+    "m": "Farfalleiro",
+    "f": "Farfalleira"
+  },
+  {
+    "m": "Farfallón",
+    "f": "Farfallona"
+  },
+  {
+    "m": "Farfantón",
+    "f": "Farfantona"
+  },
+  {
+    "m": "Farfullas",
+    "f": "Farfullas"
+  },
+  {
+    "m": "Fargalleiro",
+    "f": "Fargalleira"
+  },
+  {
+    "m": "Fargallón",
+    "f": "Fargallona"
+  },
+  {
+    "m": "Farrapeiro",
+    "f": "Farrapeira"
+  },
+  {
+    "m": "Farrapento",
+    "f": "Farrapenta"
+  },
+  {
+    "m": "Farrista",
+    "f": "Farrista"
+  },
+  {
+    "m": "Farruco",
+    "f": "Farruca"
+  },
+  {
+    "m": "Farsante",
+    "f": "Farsante"
+  },
+  {
+    "m": "Fazañeiro",
+    "f": "Fazañeira"
+  },
+  {
+    "m": "Fazuleiro",
+    "f": "Fazuleira"
+  },
+  {
+    "m": "Fedello",
+    "f": "Fedella"
+  },
+  {
+    "m": "Figurón",
+    "f": "Figurona"
+  },
+  {
+    "m": "Finchado",
+    "f": "Finchada"
+  },
+  {
+    "m": "Folgazán",
+    "f": "Folgazana"
+  },
+  {
+    "m": "Fuchicas",
+    "f": "Fuchicas"
+  },
+  {
+    "m": "Fuciñudo",
+    "f": "Fuciñuda"
+  },
+  {
+    "m": "Gago",
+    "f": "Gaga"
+  },
+  {
+    "m": "Galdracha",
+    "f": "Galdracha"
+  },
+  {
+    "m": "Galdrán",
+    "f": "Galdrana"
+  },
+  {
+    "m": "Galdrapo",
+    "f": "Galdrapa"
+  },
+  {
+    "m": "Galdrogas",
+    "f": "Galdrogas"
+  },
+  {
+    "m": "Galdrumeiro",
+    "f": "Galdrumeira"
+  },
+  {
+    "m": "Galdrupas",
+    "f": "Galdrupas"
+  },
+  {
+    "m": "Galistreiro",
+    "f": "Galistreira"
+  },
+  {
+    "m": "Gallofeiro",
+    "f": "Gallofeira"
+  },
+  {
+    "m": "Galo",
+    "f": "Gala"
+  },
+  {
+    "m": "Galopín",
+    "f": "Galopina"
+  },
+  {
+    "m": "Gandulo",
+    "f": "Gandula"
+  },
+  {
+    "m": "Gangoso",
+    "f": "Gangosa"
+  },
+  {
+    "m": "Garafeteiro",
+    "f": "Garafeteira"
+  },
+  {
+    "m": "Garatuxeiro",
+    "f": "Garatuxeira"
+  },
+  {
+    "m": "Garza",
+    "f": "Garza"
+  },
+  {
+    "m": "Ghaleador",
+    "f": "Ghaleadora"
+  },
+  {
+    "m": "Goldracha",
+    "f": "Goldracha"
+  },
+  {
+    "m": "Gordecho",
+    "f": "Gordecha"
+  },
+  {
+    "m": "Gordeiro",
+    "f": "Gordeira"
+  },
+  {
+    "m": "Gorlón",
+    "f": "Gorlona"
+  },
+  {
+    "m": "Gorxón",
+    "f": "Gorxona"
+  },
+  {
+    "m": "Gruñón",
+    "f": "Gruñona"
+  },
+  {
+    "m": "Indolente",
+    "f": "Indolente"
+  },
+  {
+    "m": "Inquieto",
+    "f": "Inquieta"
+  },
+  {
+    "m": "Irónico",
+    "f": "Irónica"
+  },
+  {
+    "m": "Lacaceiro",
+    "f": "Lacaceira"
+  },
+  {
+    "m": "Lacazán",
+    "f": "Lacazana"
+  },
+  {
+    "m": "Lagoñeiro",
+    "f": "Lagoñeira"
+  },
+  {
+    "m": "Lambecricas",
+    "f": "Lambecricas"
+  },
+  {
+    "m": "Lambecodias",
+    "f": "Lambecodias"
+  },
+  {
+    "m": "Lambefoulas",
+    "f": "Lambefoulas"
+  },
+  {
+    "m": "Lambecús",
+    "f": "Lambecús"
+  },
+  {
+    "m": "Lambetas",
+    "f": "Lambetas"
+  },
+  {
+    "m": "Lambeteiro",
+    "f": "Lambeteira"
+  },
+  {
+    "m": "Lambisqueiro",
+    "f": "Lambisqueira"
+  },
+  {
+    "m": "Lambón",
+    "f": "Lambona"
+  },
+  {
+    "m": "Lambuxeiro",
+    "f": "Lambuxeira"
+  },
+  {
+    "m": "Lambuzas",
+    "f": "Lambuzas"
+  },
+  {
+    "m": "Lampantín",
+    "f": "Lampantina"
+  },
+  {
+    "m": "Langrán",
+    "f": "Langrana"
+  },
+  {
+    "m": "Lapatín",
+    "f": "Lapatina"
+  },
+  {
+    "m": "Larbuceiro",
+    "f": "Larbuceira"
+  },
+  {
+    "m": "Lareta",
+    "f": "Lareta"
+  },
+  {
+    "m": "Larpeiro",
+    "f": "Larpeira"
+  },
+  {
+    "m": "Larpón",
+    "f": "Larpona"
+  },
+  {
+    "m": "Lelo",
+    "f": "Lela"
+  },
+  {
+    "m": "Lerchán",
+    "f": "Lerchana"
+  },
+  {
+    "m": "Lercho",
+    "f": "Lercha"
+  },
+  {
+    "m": "Loamiñeiro",
+    "f": "Loamiñeira"
+  },
+  {
+    "m": "Lorcho",
+    "f": "Lorcha"
+  },
+  {
+    "m": "Loubán",
+    "f": "Loubana"
+  },
+  {
+    "m": "Louco",
+    "f": "Louca"
+  },
+  {
+    "m": "Lunático",
+    "f": "Lunática"
+  },
+  {
+    "m": "Lurpio",
+    "f": "Lurpia"
+  },
+  {
+    "m": "Malfeitor",
+    "f": "Malfeitora"
+  },
+  {
+    "m": "Malicioso",
+    "f": "Maliciosa"
+  },
+  {
+    "m": "Malintencionado",
+    "f": "Malintencionada"
+  },
+  {
+    "m": "Malmirado",
+    "f": "Malmirada"
+  },
+  {
+    "m": "Malpocado",
+    "f": "Malpocada"
+  },
+  {
+    "m": "Manco",
+    "f": "Manca"
+  },
+  {
+    "m": "Maneto",
+    "f": "Maneta"
+  },
+  {
+    "m": "Maroto",
+    "f": "Marota"
+  },
+  {
+    "m": "Marrán",
+    "f": "Marrana"
+  },
+  {
+    "m": "Marulo",
+    "f": "Marula"
+  },
+  {
+    "m": "Marrecas",
+    "f": "Marrecas"
+  },
+  {
+    "m": "Mastalleiro",
+    "f": "Mastalleira"
+  },
+  {
+    "m": "Matachín",
+    "f": "Matachina"
+  },
+  {
+    "m": "Meixelas",
+    "f": "Meixelas"
+  },
+  {
+    "m": "Melindreiro",
+    "f": "Melindreiro"
+  },
+  {
+    "m": "Mentireiro",
+    "f": "Mentireira"
+  },
+  {
+    "m": "Mequeiro",
+    "f": "Mequeira"
+  },
+  {
+    "m": "Mesquiño",
+    "f": "Mesquiña"
+  },
+  {
+    "m": "Mexerica",
+    "f": "Mexerica"
+  },
+  {
+    "m": "Mexiriqueiro",
+    "f": "Mexiriqueira"
+  },
+  {
+    "m": "Mimarracheiro",
+    "f": "Mimarreira"
+  },
+  {
+    "m": "Moinante",
+    "f": "Moinanta"
+  },
+  {
+    "m": "Mornias",
+    "f": "Mornias"
+  },
+  {
+    "m": "Nugalleiro",
+    "f": "Nugalleiro"
+  },
+  {
+    "m": "Ñácaras",
+    "f": "Ñácaras"
+  },
+  {
+    "m": "Ñato",
+    "f": "Ñata"
+  },
+  {
+    "m": "Ñoño",
+    "f": "Ñoña"
+  },
+  {
+    "m": "Osmón",
+    "f": "Osmona"
+  },
+  {
+    "m": "Pachán",
+    "f": "Pachana"
+  },
+  {
+    "m": "Pachorrento",
+    "f": "Pachorrenta"
+  },
+  {
+    "m": "Pachorro",
+    "f": "Pachorra"
+  },
+  {
+    "m": "Padexas",
+    "f": "Padexas"
+  },
+  {
+    "m": "Padexeiro",
+    "f": "Padexeiro"
+  },
+  {
+    "m": "Paduán",
+    "f": "Paduana"
+  },
+  {
+    "m": "Pagüelo",
+    "f": "Pagüela"
+  },
+  {
+    "m": "Paifoco",
+    "f": "Paifoca"
+  },
+  {
+    "m": "Pailaroco",
+    "f": "Pailaroca"
+  },
+  {
+    "m": "Paizoco",
+    "f": "Paizoca"
+  },
+  {
+    "m": "Pailán",
+    "f": "Pailana"
+  },
+  {
+    "m": "Palabea",
+    "f": "Palabea"
+  },
+  {
+    "m": "Palabreiro",
+    "f": "Palabreira"
+  },
+  {
+    "m": "Palafustrán",
+    "f": "Palafustrana"
+  },
+  {
+    "m": "Palanquín",
+    "f": "Palanquina"
+  },
+  {
+    "m": "Paleto",
+    "f": "Paleta"
+  },
+  {
+    "m": "Palurdo",
+    "f": "Palurda"
+  },
+  {
+    "m": "Pampo",
+    "f": "Pampa"
+  },
+  {
+    "m": "Panchés",
+    "f": "Panchesa"
+  },
+  {
+    "m": "Pancho",
+    "f": "Pancha"
+  },
+  {
+    "m": "Pándego",
+    "f": "Pándega"
+  },
+  {
+    "m": "Pandorca",
+    "f": "Pandorca"
+  },
+  {
+    "m": "Panolo",
+    "f": "Panola"
+  },
+  {
+    "m": "Panqueiro",
+    "f": "Panqueira"
+  },
+  {
+    "m": "Pantalleiro",
+    "f": "Pantalleira"
+  },
+  {
+    "m": "Pantasmón",
+    "f": "Pantasmona"
+  },
+  {
+    "m": "Panzudo",
+    "f": "Panzuda"
+  },
+  {
+    "m": "Panximicas",
+    "f": "Panximicas"
+  },
+  {
+    "m": "Panximiqueiro",
+    "f": "Panximiqueira"
+  },
+  {
+    "m": "Panxolas",
+    "f": "Panxolas"
+  },
+  {
+    "m": "Papainas",
+    "f": "Papainas"
+  },
+  {
+    "m": "Papafilloas",
+    "f": "Papafilloas"
+  },
+  {
+    "m": "Papaleisón",
+    "f": "Papaleisona"
+  },
+  {
+    "m": "Papamoscas",
+    "f": "Papamoscas"
+  },
+  {
+    "m": "Papán",
+    "f": "Papana"
+  },
+  {
+    "m": "Paparón",
+    "f": "Paparona"
+  },
+  {
+    "m": "Papoio",
+    "f": "Papoia"
+  },
+  {
+    "m": "Parrandeiro",
+    "f": "Parrandeira"
+  },
+  {
+    "m": "Parsimonioso",
+    "f": "Parsimoniosa"
+  },
+  {
+    "m": "Parviolo",
+    "f": "Parviola"
+  },
+  {
+    "m": "Parvo",
+    "f": "Parva"
+  },
+  {
+    "m": "Pedichón",
+    "f": "Pedichona"
+  },
+  {
+    "m": "Pícaro",
+    "f": "Pícara"
+  },
+  {
+    "m": "Pillabán",
+    "f": "Pillabana"
+  },
+  {
+    "m": "Pillo",
+    "f": "Pilla"
+  },
+  {
+    "m": "Pimpín",
+    "f": "Pimpina"
+  },
+  {
+    "m": "Pingallo",
+    "f": "Pingalla"
+  },
+  {
+    "m": "Pipiolo",
+    "f": "Pipiola"
+  },
+  {
+    "m": "Porcallán",
+    "f": "Porcallana"
+  },
+  {
+    "m": "Porco",
+    "f": "Porca"
+  },
+  {
+    "m": "Porfiador",
+    "f": "Porfiadora"
+  },
+  {
+    "m": "Porfión",
+    "f": "Porfiona"
+  },
+  {
+    "m": "Pousafoles",
+    "f": "Pousafoles"
+  },
+  {
+    "m": "Pousón",
+    "f": "Pousona"
+  },
+  {
+    "m": "Prea",
+    "f": "Prea"
+  },
+  {
+    "m": "Preguiceiro",
+    "f": "Preguiceira"
+  },
+  {
+    "m": "Presumido",
+    "f": "Presumida"
+  },
+  {
+    "m": "Presuntuoso",
+    "f": "Presuntuosa"
+  },
+  {
+    "m": "Prosma",
+    "f": "Prosma"
+  },
+  {
+    "m": "Rabechas",
+    "f": "Rabechas"
+  },
+  {
+    "m": "Rabelludo",
+    "f": "Rabelluda"
+  },
+  {
+    "m": "Rabisaco",
+    "f": "Rabisaco"
+  },
+  {
+    "m": "Rallante",
+    "f": "Rallante"
+  },
+  {
+    "m": "Rancoroso",
+    "f": "Rancorosa"
+  },
+  {
+    "m": "Rañado",
+    "f": "Rañada"
+  },
+  {
+    "m": "Rañán",
+    "f": "Rañana"
+  },
+  {
+    "m": "Rañento",
+    "f": "Rañenta"
+  },
+  {
+    "m": "Rañón",
+    "f": "Rañona"
+  },
+  {
+    "m": "Rañoso",
+    "f": "Rañosa"
+  },
+  {
+    "m": "Rapaceiro",
+    "f": "Rapaceira"
+  },
+  {
+    "m": "Rapañeiro",
+    "f": "Rapañeira"
+  },
+  {
+    "m": "Rapatundas",
+    "f": "Rapatundas"
+  },
+  {
+    "m": "Raposeiro",
+    "f": "Raposeira"
+  },
+  {
+    "m": "Raspiñeiro",
+    "f": "Raspiñeira"
+  },
+  {
+    "m": "Remendafoles",
+    "f": "Remendafoles"
+  },
+  {
+    "m": "Rexoubeiro",
+    "f": "Rexoubeiro"
+  },
+  {
+    "m": "Rifante",
+    "f": "Rifanta"
+  },
+  {
+    "m": "Rifeiro",
+    "f": "Rifeira"
+  },
+  {
+    "m": "Rillachavos",
+    "f": "Rillachavos"
+  },
+  {
+    "m": "Rillote",
+    "f": "Rillota"
+  },
+  {
+    "m": "Rincheiro",
+    "f": "Rincheiro"
+  },
+  {
+    "m": "Roñoso",
+    "f": "Roñosa"
+  },
+  {
+    "m": "Rosmón",
+    "f": "Rosmona"
+  },
+  {
+    "m": "Rufián",
+    "f": "Rufiana"
+  },
+  {
+    "m": "Rufo",
+    "f": "Rufa"
+  },
+  {
+    "m": "Sacaespiñas",
+    "f": "Sacaespiñas"
+  },
+  {
+    "m": "Sobón",
+    "f": "Sobona"
+  },
+  {
+    "m": "Sórneas",
+    "f": "Sórneas"
+  },
+  {
+    "m": "Sorneón",
+    "f": "Sorneona"
+  },
+  {
+    "m": "Tacaño",
+    "f": "Tacaña"
+  },
+  {
+    "m": "Tardón",
+    "f": "Tardona"
+  },
+  {
+    "m": "Tatexo",
+    "f": "Tatexa"
+  },
+  {
+    "m": "Tato",
+    "f": "Tata"
+  },
+  {
+    "m": "Teimoso",
+    "f": "Teimosa"
+  },
+  {
+    "m": "Terco",
+    "f": "Terca"
+  },
+  {
+    "m": "Testán",
+    "f": "Testana"
+  },
+  {
+    "m": "Toco",
+    "f": "Toca"
+  },
+  {
+    "m": "Tolainas",
+    "f": "Tolainas"
+  },
+  {
+    "m": "Toleirón",
+    "f": "Toleirona"
+  },
+  {
+    "m": "Tolitates",
+    "f": "Toilates"
+  },
+  {
+    "m": "Tolleito",
+    "f": "Tolleita"
+  },
+  {
+    "m": "Tolo",
+    "f": "Tolainas"
+  },
+  {
+    "m": "Tragón",
+    "f": "Tragona"
+  },
+  {
+    "m": "Traicioeiro",
+    "f": "Traicioeira"
+  },
+  {
+    "m": "Traidor",
+    "f": "Traidora"
+  },
+  {
+    "m": "Trampulleiro",
+    "f": "Trampulleira"
+  },
+  {
+    "m": "Trampuzas",
+    "f": "Trampuzas"
+  },
+  {
+    "m": "Tranfullas",
+    "f": "Tranfullas"
+  },
+  {
+    "m": "Tranfulleiro",
+    "f": "Tranfulleira"
+  },
+  {
+    "m": "Trangalleiro",
+    "f": "Trangalleira"
+  },
+  {
+    "m": "Trangallón",
+    "f": "Trangallona"
+  },
+  {
+    "m": "Trapaceiro",
+    "f": "Trapaceira"
+  },
+  {
+    "m": "Trapalleiro",
+    "f": "Trapalleira"
+  },
+  {
+    "m": "Traste",
+    "f": "Traste"
+  },
+  {
+    "m": "Trasto",
+    "f": "Trasta"
+  },
+  {
+    "m": "Traveso",
+    "f": "Travesa"
+  },
+  {
+    "m": "Trouleiro",
+    "f": "Trouleira"
+  },
+  {
+    "m": "Truhán",
+    "f": "Truhana"
+  },
+  {
+    "m": "Ufano",
+    "f": "Ufana"
+  },
+  {
+    "m": "Vago",
+    "f": "Vaga"
+  },
+  {
+    "m": "Virachaquetas",
+    "f": "Virachaquetas"
+  },
+  {
+    "m": "Xan",
+    "f": "Xana"
+  },
+  {
+    "m": "Xaropeiro",
+    "f": "Xaropeira"
+  },
+  {
+    "m": "Xirico",
+    "f": "Xirica"
+  },
+  {
+    "m": "Xirifeiro",
+    "f": "Xirifeira"
+  },
+  {
+    "m": "Xirigaito",
+    "f": "Xirigata"
+  },
+  {
+    "m": "Xogantín",
+    "f": "Xogantina"
+  },
+  {
+    "m": "Xornas",
+    "f": "Xornas"
+  },
+  {
+    "m": "Xoto",
+    "f": "Xota"
+  },
+  {
+    "m": "Xudas",
+    "f": "Xudas"
+  },
+  {
+    "m": "Xurafaz",
+    "f": "Xurafaza"
+  },
+  {
+    "m": "Zaíno",
+    "f": "Zaína"
+  },
+  {
+    "m": "Zalapastrán",
+    "f": "Zalapastrana"
+  },
+  {
+    "m": "Zancaxoso",
+    "f": "Zancaxosa"
+  },
+  {
+    "m": "Zancudo",
+    "f": "Zancuda"
+  },
+  {
+    "m": "Zángano",
+    "f": "Zángana"
+  },
+  {
+    "m": "Zarabeto",
+    "f": "Zarabeta"
+  },
+  {
+    "m": "Zaragalleiro",
+    "f": "Zaragalleira"
+  },
+  {
+    "m": "Zaragateiro",
+    "f": "Zaragateira"
+  },
+  {
+    "m": "Zaramalleiro",
+    "f": "Zaramalleira"
+  },
+  {
+    "m": "Zarangalleiro",
+    "f": "Zarangalleira"
+  },
+  {
+    "m": "Zarapalleiro",
+    "f": "Zarapalleira"
+  },
+  {
+    "m": "Zopenco",
+    "f": "Zopenca"
+  },
+  {
+    "m": "Zoquete",
+    "f": "Zoqueta"
+  },
+  {
+    "m": "Zopo",
+    "f": "Zopa"
+  },
+  {
+    "m": "Zuíño",
+    "f": "Zuíña"
+  },
+  {
+    "m": "Zunado",
+    "f": "Zunada"
+  }
 ]

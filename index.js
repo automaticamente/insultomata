@@ -1,23 +1,24 @@
 const fs = require('fs');
-const path = require('path');
+const merge = require('deepmerge');
 const TG = require('treegrammar');
 const color = require('tinycolor2');
 const stitchit = require('./lib/stitchit');
 
 const { sample } = require('lodash');
 
-const insultos = require('./insultos.json');
+const insults = require('./insultos.json');
+const ima = insults.map(i => i.m.toLowerCase());
+const ife = insults.map(i => i.f.toLowerCase());
 
-const rules = {
+const genericRules = {
   '<start>': ['<template>'],
   '<template>': [
-    'Es un <insulto> e un <insulto>, vai <accion> <a_lugar>.',
+    'Vai <accion>, <insulto>',
     'Mira que es <insulto> <modificador>, vai <accion>!',
-    'Me cago <familiar> que te <orixe>, <insulto> <modificador>.',
+    'Me cagho <familiar> que te <orixe>, <insulto> <modificador>.',
     'Vai <accion> <a_lugar>, <insulto> da <sexual_feminino>.',
     'Vai <accion> <a_lugar>, <insulto> do <sexual_masculino>.'
   ],
-  '<insulto>': insultos.map(i => i.toLowerCase()),
   '<familiar>': ['na nai', 'na <sexual_feminino>'],
   '<sexual_feminino>': ['cona', 'berberecha', 'perrecha'],
   '<sexual_masculino>': ['carallo', 'pirola'],
@@ -33,21 +34,34 @@ const rules = {
   '<a_lugar>': ['ao pe dunha cola', 'ao campo', 'á corte', 'lonxe de aquí']
 };
 
-const generator = new TG(rules);
+module.exports.bot = function bot(gender) {
+  const rules_m = {
+    '<template>': ['Es un <insulto> e un <insulto>, vai <accion> <a_lugar>.'],
+    '<insulto>': ima
+  };
 
-module.exports.bot = function bot() {
+  const rules_f = {
+    '<template>': [
+      'Es unha <insulto> e unha <insulto>, vai <accion> <a_lugar>.'
+    ],
+    '<insulto>': ife
+  };
+
+  const rules = merge(gender === 'm' ? rules_m : rules_f, genericRules);
+
+  const generator = new TG(rules);
   const i = generator.generate().toUpperCase();
-  const background = color.random().toHexString();
 
   stitchit({
-    text: i,
-    font: path.join(__dirname, `fonts/stitch${sample([1, 2, 3])}.ttf`),
-    fontSize: '60',
-    size: '600x600',
-    background
+    text: `${i}`,
+    font: 'fonts/stitch.ttf',
+    fontSize: '50',
+    fill: '#235023',
+    size: '600x400',
+    background: `images/bg${sample([1, 2])}.png`
   }).then(buffer => fs.writeFileSync('./out.png', buffer));
 };
 
 if (require.main === module) {
-  module.exports.bot();
+  module.exports.bot('f');
 }
