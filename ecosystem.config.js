@@ -2,13 +2,11 @@ module.exports = {
   apps: [
     {
       name: 'bot',
-      script: './index.js',
-      watch: true
+      script: './index.js'
     },
     {
       name: 'listener',
-      script: './listener.js',
-      watch: true
+      script: './listener.js'
     }
   ]
 };

@@ -9,7 +9,7 @@ client.on('error', function(err) {
 
 const T = require('twit');
 
-const { twitterAPI } = require('./config.js');
+const { twitterAPI, myself } = require('./config.js');
 
 const i = new T(twitterAPI);
 
@@ -29,7 +29,7 @@ function addToQueue(user) {
       client.rpush('queue', JSON.stringify(user));
 
       client.set('@' + user.handle, '1');
-      client.expire('@' + user.handle, 3600 * 24);
+      client.expire('@' + user.handle, 3600 * 6);
     } else {
       process.stderr.write(`User: @${user.handle} is blocked \n`);
     }
@@ -37,6 +37,8 @@ function addToQueue(user) {
 }
 
 function handleFollow(event) {
+  if (event.source.screen_name === myself) return;
+
   addToQueue({
     handle: event.source.screen_name,
     name: event.source.name,
@@ -45,7 +47,17 @@ function handleFollow(event) {
 }
 
 function handleTweet(event) {
-  console.log(event);
+  const mentions = event.entities.user_mentions.filter(
+    m => m.screen_name.toLowerCase() === myself
+  );
+
+  if (mentions.length && !event.retweeted_status) {
+    addToQueue({
+      handle: event.user.screen_name,
+      name: event.user.name,
+      id: event.user.id_str
+    });
+  }
 }
 
 stream.on('follow', handleFollow);

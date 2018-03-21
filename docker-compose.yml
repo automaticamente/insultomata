@@ -7,6 +7,7 @@ services:
       - CONSUMER_SECRET=${CONSUMER_SECRET}
       - ACCESS_TOKEN=${ACCESS_TOKEN}
       - ACCESS_TOKEN_SECRET=${ACCESS_TOKEN_SECRET}
+      - BOT_TWITTER_USER=${BOT_TWITTER_USER}
     build: .
     volumes:
       - .:/bot
