@@ -48,14 +48,14 @@ function generateSingle() {
 //generateSingle();
 
 function generateReply() {
-  process.stdout.write('Generating reply');
-
   client.lpop('queue', function(error, reply) {
     if (error) {
       process.stderr.write(`Error: ${error}\n`);
     }
 
     if (reply) {
+      process.stdout.write('Generating reply');
+
       const user = JSON.parse(reply);
 
       process.stdout.write(`
@@ -72,22 +72,5 @@ function generateReply() {
   });
 }
 
-const single = new CronJob(
-  '* */6 * * *',
-  generateSingle,
-  null,
-  true,
-  'Europe/Madrid'
-);
-
-const reply = new CronJob(
-  '*/1 * * * *',
-  generateReply,
-  null,
-  true,
-  'Europe/Madrid'
-);
-
-//
-//
-// s.then(b => fs.writeFileSync('./out.png', b));
+new CronJob('* */6 * * *', generateSingle, null, true, 'Europe/Madrid');
+new CronJob('*/2 * * * *', generateReply, null, true, 'Europe/Madrid');

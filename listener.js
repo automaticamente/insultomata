@@ -7,8 +7,6 @@ client.on('error', function(err) {
   process.stdout.write('Error ' + err);
 });
 
-client.select(1);
-
 const T = require('twit');
 
 const { twitterAPI } = require('./config.js');
@@ -17,12 +15,7 @@ const i = new T(twitterAPI);
 
 const stream = i.stream('user');
 
-stream.on('follow', event => {
-  const user = {
-    handle: event.source.screen_name,
-    name: event.source.name
-  };
-
+function addToQueue(user) {
   client.exists('@' + user.handle, function(error, exists) {
     if (error) {
       process.stderr.write('Error ' + error);
@@ -41,4 +34,16 @@ stream.on('follow', event => {
       process.stderr.write(`User: @${user.handle} is blocked \n`);
     }
   });
-});
+}
+
+function handleFollow(event) {
+  return {
+    handle: event.source.screen_name,
+    name: event.source.name
+  };
+}
+
+function handleTweet(event) {}
+
+stream.on('follow', handleFollow);
+stream.on('tweet', handleTweet);
