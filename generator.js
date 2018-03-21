@@ -46,16 +46,15 @@ module.exports.generator = function generator(gender) {
     'rgba(156,34,110,0.7)'
   ];
 
-  return stitchit({
-    text: `${text.toUpperCase()}`,
-    font: 'media/fonts/stitch.ttf',
-    fontSize: '55',
-    fill: sample(colors),
-    size: '600x400',
-    background: `media/images/bg${random(1, 9)}.png`
-  });
+  return {
+    text,
+    buffer: stitchit({
+      text: `${text.toUpperCase()}`,
+      font: 'media/fonts/stitch.ttf',
+      fontSize: '55',
+      fill: sample(colors),
+      size: '600x400',
+      background: `media/images/bg${random(1, 9)}.png`
+    })
+  };
 };
-
-if (require.main === module) {
-  module.exports.generator(sample(['f', 'm', 'n']));
-}

@@ -10,4 +10,4 @@ RUN npm install
 
 ADD . /bot
 
-CMD node listener.js
+CMD pm2 start ecosystem.config.js && pm2 logs

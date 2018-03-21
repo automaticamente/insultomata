@@ -18,22 +18,27 @@ const i = new T(twitterAPI);
 const stream = i.stream('user');
 
 stream.on('follow', event => {
-  const user = event.source.screen_name;
+  const user = {
+    handle: event.source.screen_name,
+    name: event.source.name
+  };
 
-  client.exists('@' + user, function(error, exists) {
+  client.exists('@' + user.handle, function(error, exists) {
     if (error) {
-      process.stdout.write('Error ' + error);
+      process.stderr.write('Error ' + error);
     }
 
     if (!exists) {
-      process.stdout.write(`Pushing to queue: ${user}\n`);
+      process.stdout.write(`Pushing to queue: 
+      User: ${user.name}
+      Handle: ${user.handle}\n`);
 
-      client.rpush('queue', user);
+      client.rpush('queue', JSON.stringify(user));
 
-      client.set('@' + user, '1');
-      client.expire('@' + user, 3600 * 24);
+      client.set('@' + user.handle, '1');
+      client.expire('@' + user.handle, 3600 * 24);
     } else {
-      process.stdout.write(`User: ${user} is blocked \n`);
+      process.stderr.write(`User: @${user.handle} is blocked \n`);
     }
   });
 });

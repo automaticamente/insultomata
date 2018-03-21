@@ -15,4 +15,4 @@ services:
   redis:
     image: "redis:alpine"
     volumes:
-      - ./data/db:/data/db
+      - ./data/db:/data
