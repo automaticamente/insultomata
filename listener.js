@@ -13,9 +13,9 @@ const T = require('twit');
 
 const { twitterAPI } = require('./config.js');
 
-const tweeter = new T(twitterAPI);
+const i = new T(twitterAPI);
 
-const stream = tweeter.stream('user');
+const stream = i.stream('user');
 
 stream.on('follow', event => {
   const user = event.source.screen_name;

@@ -40,11 +40,17 @@ module.exports.generator = function generator(gender) {
 
   const text = output.charAt(0).toUpperCase() + output.slice(1);
 
+  const colors = [
+    'rgba(35,80,35,0.7)',
+    'rgba(39,84,113,0.7)',
+    'rgba(156,34,110,0.7)'
+  ];
+
   return stitchit({
     text: `${text.toUpperCase()}`,
     font: 'media/fonts/stitch.ttf',
-    fontSize: '50',
-    fill: 'rgba(35,80,35,0.7)',
+    fontSize: '55',
+    fill: sample(colors),
     size: '600x400',
     background: `media/images/bg${random(1, 9)}.png`
   });

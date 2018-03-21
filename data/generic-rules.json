@@ -2,11 +2,12 @@
   "<start>": ["<template>"],
   "<template>": [
     "<insulto>",
-    "<insulto> <insulto>",
-    "<insulto> <modificador>",
+    "<insulto>, <insulto>",
     "<insulto>, <insulto>, <insulto>!!",
+    "<insulto> <modificador>",
+    "<insulto>, <insulto> <modificador>",
     "Se foras <accion>, <insulto>",
-    "Pero mira que es <insulto> , vai <accion>!!",
+    "Pero mira que es <insulto>, vai <accion>!!",
     "Me cagho <orixe> que te <accion_orixe>, <insulto> <modificador>",
     "Vai <accion> <accion_lugar>, <insulto> <sexual_orixe>",
     "Me cago no dios que te <accion_orixe_extra>, <insulto> <sexual_orixe>"
@@ -14,8 +15,8 @@
   "<orixe>": ["na nai", "na <sexual_feminino>"],
   "<accion_orixe>": ["botou", "cagou", "chimpou"],
   "<accion_orixe_extra>": ["fixo", "fundou", "creou"],
-  "<sexual_orixe>": ["do <sexual_masculino>", "da <sexual_feminino>"],
-  "<sexual_feminino>": ["cona", "berberecha", "perrecha"],
+  "<sexual_orixe>": ["do <sexual_masculino>"],
+  "<sexual_feminino>": ["cona", "berberechiña", "perrecha"],
   "<sexual_masculino>": ["carallo", "nabo"],
   "<modificador>": ["de merda", "do carallo", "<sexual_orixe>"],
   "<accion>": [
@@ -27,10 +28,11 @@
     "tocar o <sexual_masculino>"
   ],
   "<accion_lugar>": [
-    "ao pe dunha cola",
+    "ao pé dunha cola",
     "ao campo",
     "á corte",
     "lonxe de aquí",
-    "ao monte"
+    "ao monte",
+    "a onde non te vexa"
   ]
 }
