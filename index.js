@@ -6,7 +6,7 @@ const { generator } = require('./generator');
 const { Tweeter } = require('./lib/tweeter');
 const genderizer = require('./lib/genderizer');
 
-const { twitterAPI } = require('./config');
+const { twitterAPI, myself } = require('./config');
 const t = new Tweeter(twitterAPI);
 
 const client = redis.createClient({
@@ -46,6 +46,20 @@ function generateSingle() {
 }
 
 //generateSingle();
+
+function followBack(user) {
+  return new Promise((resolve, reject) => {
+    t.get('followers/ids', { screen_name: myself }, function(err, data) {
+      t.post(
+        'friendships/create',
+        {
+          user
+        },
+        function(err, data, response) {}
+      );
+    });
+  });
+}
 
 function generateReply() {
   client.lpop('queue', function(error, reply) {

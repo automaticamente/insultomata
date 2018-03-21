@@ -37,13 +37,16 @@ function addToQueue(user) {
 }
 
 function handleFollow(event) {
-  return {
+  addToQueue({
     handle: event.source.screen_name,
-    name: event.source.name
-  };
+    name: event.source.name,
+    id: event.source.id_str
+  });
 }
 
-function handleTweet(event) {}
+function handleTweet(event) {
+  console.log(event);
+}
 
 stream.on('follow', handleFollow);
 stream.on('tweet', handleTweet);
