@@ -1,6 +1,6 @@
 const TG = require('treegrammar');
 const merge = require('deepmerge');
-const { sample } = require('lodash');
+const { sample, random } = require('lodash');
 
 const stitchit = require('./lib/stitcher');
 
@@ -46,7 +46,7 @@ module.exports.generator = function generator(gender) {
     fontSize: '50',
     fill: 'rgba(35,80,35,0.7)',
     size: '600x400',
-    background: `media/images/bg${sample([1, 2])}.png`
+    background: `media/images/bg${random(1, 9)}.png`
   });
 };
 
