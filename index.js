@@ -46,11 +46,11 @@ function generateSingle() {
 }
 
 function followBack(user) {
-  //I really do not care about callbacks in this case
-  t.twitter.get('followers/ids', function(err, data) {
-    const followers = data.ids;
+  //I do not really care about callbacks here
+  t.twitter.get('friends/ids', function(err, data) {
+    const friends = data.ids.map(id => Number(id));
 
-    if (followers.includes(Number(user.id))) {
+    if (!friends.includes(Number(user.id))) {
       process.stdout.write('Following user...');
       t.twitter.post('friendships/create', {
         user_id: user.id,
@@ -90,5 +90,4 @@ function generateReply() {
 new CronJob('0 0 */4 * * *', generateSingle, null, true, 'Europe/Madrid');
 new CronJob('0 */2 * * * *', generateReply, null, true, 'Europe/Madrid');
 
-//generateSingle();
-//Sígueme e consigue o teu insulto personalizado e bordado en punto de cruz, perfecto tamén para regalar. E se queres podes volver por máis. ❤️🤖 Feito por @bertez
+generateSingle();

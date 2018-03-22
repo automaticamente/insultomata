@@ -4,7 +4,7 @@ const { sample, random } = require('lodash');
 
 const stitchit = require('./lib/stitcher');
 
-const insults = require('./data/insultos.json');
+const insults = require('./data/insults.json');
 const genericRules = require('./data/generic-rules.json');
 
 const ife = insults.map(i => i.f.toLowerCase());

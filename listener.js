@@ -24,6 +24,7 @@ function addToQueue(user) {
     if (!exists) {
       process.stdout.write(`Pushing to queue: 
       User: ${user.name}
+      Date: ${new Date()}
       Handle: ${user.handle}\n`);
 
       client.rpush('queue', JSON.stringify(user));
