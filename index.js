@@ -45,6 +45,20 @@ function generateSingle() {
   tweet(output.buffer, output.text);
 }
 
+function followBack(user) {
+  t.twitter.get('followers/ids', function(err, data) {
+    const followers = data.ids;
+
+    if (followers.indexOf(Number(user.id)) < 0) {
+      process.stdout.write('Following user');
+      t.twitter.post('frienship/create', {
+        user_id: user.id,
+        follow: false
+      });
+    }
+  });
+}
+
 function generateReply() {
   client.lpop('queue', function(error, reply) {
     if (error) {
@@ -59,8 +73,10 @@ function generateReply() {
       process.stdout.write(`
       User: ${user.handle} 
       Date: ${new Date()}
-      posting tweet...\n
+      check followback & posting tweet...\n
       `);
+
+      followBack(user);
 
       genderizer(user.name).then(g => {
         const output = generator(g);
