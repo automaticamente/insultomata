@@ -43,14 +43,16 @@ module.exports.generator = function generator(gender) {
   const colors = [
     'rgba(35,80,35,0.7)',
     'rgba(39,84,113,0.7)',
-    'rgba(156,34,110,0.7)'
+    'rgba(156,34,110,0.7)',
+    'rgba(55,110,97,0.7)',
+    'rgba(0,0,0,0.5)'
   ];
 
   return {
     text,
     buffer: stitchit({
       text: `${text.toUpperCase()}`,
-      font: 'media/fonts/stitch.ttf',
+      font: `media/fonts/stitch${random(1, 2)}.ttf`,
       fontSize: '55',
       fill: sample(colors),
       size: '600x400',
