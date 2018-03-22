@@ -46,12 +46,14 @@ function generateSingle() {
 }
 
 function followBack(user) {
+  //I really do not care about callbacks in this case
   t.twitter.get('followers/ids', function(err, data) {
     const followers = data.ids;
+    console.log(followers, user.id);
 
-    if (followers.indexOf(Number(user.id)) < 0) {
-      process.stdout.write('Following user');
-      t.twitter.post('frienship/create', {
+    if (followers.includes(Number(user.id))) {
+      process.stdout.write('Following user...');
+      t.twitter.post('friendships/create', {
         user_id: user.id,
         follow: false
       });
