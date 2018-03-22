@@ -32,8 +32,8 @@
     "f": "Baldreu"
   },
   {
-    "m": "Baldrogas",
-    "f": "Baldorgas"
+    "m": "Baldragas",
+    "f": "Baldragas"
   },
   {
     "m": "Baltroeiro",
@@ -224,10 +224,6 @@
     "f": "Chosca"
   },
   {
-    "m": "Churriana",
-    "f": "Churriana"
-  },
-  {
     "m": "Cocho",
     "f": "Cocha"
   },
@@ -246,10 +242,6 @@
   {
     "m": "Cubilón",
     "f": "Cubilona"
-  },
-  {
-    "m": "Cutre",
-    "f": "Cutre"
   },
   {
     "m": "Desasisado",
@@ -544,16 +536,8 @@
     "f": "Malpocada"
   },
   {
-    "m": "Manco",
-    "f": "Manca"
-  },
-  {
     "m": "Maneto",
     "f": "Maneta"
-  },
-  {
-    "m": "Maroto",
-    "f": "Marota"
   },
   {
     "m": "Marulo",
@@ -566,10 +550,6 @@
   {
     "m": "Mastalleiro",
     "f": "Mastalleira"
-  },
-  {
-    "m": "Matachín",
-    "f": "Matachina"
   },
   {
     "m": "Meixelas",
@@ -596,8 +576,16 @@
     "f": "Mimarracheira"
   },
   {
+    "m": "Miñaxoia",
+    "f": "Miñaxoia"
+  },
+  {
     "m": "Moinante",
     "f": "Moinanta"
+  },
+  {
+    "m": "Mona",
+    "f": "Mona"
   },
   {
     "m": "Mornias",
