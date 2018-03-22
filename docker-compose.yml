@@ -9,8 +9,6 @@ services:
       - ACCESS_TOKEN_SECRET=${ACCESS_TOKEN_SECRET}
       - BOT_TWITTER_USER=${BOT_TWITTER_USER}
     build: .
-    volumes:
-      - .:/bot
     depends_on:
       - redis
   redis:
