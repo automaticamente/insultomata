@@ -6,7 +6,7 @@ const { generator } = require('./generator');
 const { Tweeter } = require('./lib/tweeter');
 const genderizer = require('./lib/genderizer');
 
-const { twitterAPI } = require('./config');
+const { twitterAPI, myself } = require('./config');
 const t = new Tweeter(twitterAPI);
 
 const client = redis.createClient({
@@ -26,7 +26,7 @@ function tweet(buffer, text) {
       process.stdout.write(`
       done!
       Text: ${text}
-      Link: https://twitter.com/insultomata/status/${id}\n
+      Link: https://twitter.com/${myself}/status/${id}\n
       `)
     )
     .catch(error => process.stderr.write(error));
@@ -49,7 +49,6 @@ function followBack(user) {
   //I really do not care about callbacks in this case
   t.twitter.get('followers/ids', function(err, data) {
     const followers = data.ids;
-    console.log(followers, user.id);
 
     if (followers.includes(Number(user.id))) {
       process.stdout.write('Following user...');

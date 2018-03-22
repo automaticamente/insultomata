@@ -58,3 +58,13 @@ module.exports.generator = function generator(gender) {
     })
   };
 };
+
+if (require.main === module) {
+  const { writeFileSync } = require('fs');
+  const output = module.exports.generator(sample(['f', 'm', 'n']));
+
+  output.buffer.then(b => {
+    process.stdout.write(output.text);
+    writeFileSync('./out.png', b);
+  });
+}

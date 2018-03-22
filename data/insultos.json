@@ -132,6 +132,10 @@
     "f": "Caguiñas"
   },
   {
+    "m": "Calamidá",
+    "f": "Calamidá"
+  },
+  {
     "m": "Camanduleiro",
     "f": "Camanduleira"
   },
@@ -500,10 +504,6 @@
     "f": "Lareta"
   },
   {
-    "m": "Larpeiro",
-    "f": "Larpeira"
-  },
-  {
     "m": "Larpón",
     "f": "Larpona"
   },
@@ -558,10 +558,6 @@
   {
     "m": "Maroto",
     "f": "Marota"
-  },
-  {
-    "m": "Marrán",
-    "f": "Marrana"
   },
   {
     "m": "Marulo",
@@ -832,14 +828,6 @@
     "f": "Preguiceira"
   },
   {
-    "m": "Presumido",
-    "f": "Presumida"
-  },
-  {
-    "m": "Presuntuoso",
-    "f": "Presuntuosa"
-  },
-  {
     "m": "Prosma",
     "f": "Prosma"
   },
@@ -858,6 +846,10 @@
   {
     "m": "Rallante",
     "f": "Rallante"
+  },
+  {
+    "m": "Rallantiño",
+    "f": "Rallantiña"
   },
   {
     "m": "Rancoroso",
@@ -984,22 +976,6 @@
     "f": "Toilates"
   },
   {
-    "m": "Tolleito",
-    "f": "Tolleita"
-  },
-  {
-    "m": "Tolo",
-    "f": "Tolainas"
-  },
-  {
-    "m": "Trampulleiro",
-    "f": "Trampulleira"
-  },
-  {
-    "m": "Trampuzas",
-    "f": "Trampuzas"
-  },
-  {
     "m": "Tranfullas",
     "f": "Tranfullas"
   },
@@ -1030,10 +1006,6 @@
   {
     "m": "Trasto",
     "f": "Trasta"
-  },
-  {
-    "m": "Traveso",
-    "f": "Travesa"
   },
   {
     "m": "Trouleiro",
@@ -1074,10 +1046,6 @@
   {
     "m": "Xoto",
     "f": "Xota"
-  },
-  {
-    "m": "Xudas",
-    "f": "Xudas"
   },
   {
     "m": "Xurafaz",
