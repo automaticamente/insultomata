@@ -91,4 +91,4 @@ new CronJob('0 0 */4 * * *', generateSingle, null, true, 'Europe/Madrid');
 new CronJob('0 */2 * * * *', generateReply, null, true, 'Europe/Madrid');
 
 //generateSingle();
-//Sígueme e consigue o teu insulto personalizado e bordado en punto de cruz. E se queres podes volver por máis. ❤️🤖 Feito por @bertez
+//Sígueme e consigue o teu insulto personalizado e bordado en punto de cruz, perfecto tamén para regalar. E se queres podes volver por máis. ❤️🤖 Feito por @bertez
