@@ -48,6 +48,7 @@ function handleFollow(event) {
 }
 
 function handleTweet(event) {
+  console.log(event);
   const mentions = event.entities.user_mentions.filter(
     m => m.screen_name.toLowerCase() === myself
   );
