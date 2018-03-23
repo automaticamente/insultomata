@@ -79,10 +79,15 @@ function generateReply() {
 
       followBack(user);
 
-      genderizer(user.name).then(g => {
-        const output = generator(g);
-        tweet(output.buffer, `@${user.handle} ${output.text}`);
-      });
+      genderizer(user.name)
+        .then(g => {
+          const output = generator(g);
+          tweet(output.buffer, `@${user.handle} ${output.text}`);
+        })
+        .catch(error => {
+          const output = generator('n');
+          tweet(output.buffer, `@${user.handle} ${output.text}`);
+        });
     }
   });
 }
