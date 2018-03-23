@@ -67,6 +67,6 @@ if (require.main === module) {
 
   output.buffer.then(b => {
     process.stdout.write(output.text);
-    writeFileSync('./out.png', b);
+    writeFileSync('./out.jpg', b);
   });
 }
