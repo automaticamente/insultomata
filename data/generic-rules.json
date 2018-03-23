@@ -13,7 +13,7 @@
     "Vai <accion> <accion_lugar>, <insulto> <sexual_orixe>",
     "Me cago no dios que te <accion_orixe_extra>, <insulto> <sexual_orixe>"
   ],
-  "<orixe>": ["na nai", "na <sexual_feminino>"],
+  "<orixe>": ["na nai", "na <sexual_feminino>", "no pai"],
   "<accion_orixe>": ["botou", "cagou", "chimpou"],
   "<accion_orixe_extra>": ["fixo", "fundou", "creou"],
   "<sexual_orixe>": ["do <sexual_masculino>"],
