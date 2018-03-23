@@ -48,7 +48,6 @@ function handleFollow(event) {
 }
 
 function handleTweet(event) {
-  console.log(event);
   const mentions = event.entities.user_mentions.filter(
     m => m.screen_name.toLowerCase() === myself
   );
@@ -57,7 +56,8 @@ function handleTweet(event) {
     addToQueue({
       handle: event.user.screen_name,
       name: event.user.name,
-      id: event.user.id_str
+      id: event.user.id_str,
+      reply_id: event.id_str
     });
   }
 }

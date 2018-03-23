@@ -17,10 +17,10 @@ client.on('error', function(err) {
   process.stderr.write('Error ' + err);
 });
 
-function tweet(buffer, text) {
+function tweet(buffer, text, reply_id) {
   buffer
     .then(b => {
-      return t.tweetImageBuffer(b, text);
+      return t.tweetImageBuffer(b, text, reply_id);
     })
     .then(id =>
       process.stdout.write(`
@@ -99,11 +99,11 @@ function generateReply() {
       genderizer(user.name)
         .then(g => {
           const output = generator(g);
-          tweet(output.buffer, `@${user.handle} ${output.text}`);
+          tweet(output.buffer, `@${user.handle} ${output.text}`, user.reply_id);
         })
         .catch(error => {
           const output = generator('n');
-          tweet(output.buffer, `@${user.handle} ${output.text}`);
+          tweet(output.buffer, `@${user.handle} ${output.text}`, user.reply_id);
         });
     }
   });
