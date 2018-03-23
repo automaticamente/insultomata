@@ -51,11 +51,28 @@ function followBack(user) {
     const friends = data.ids.map(id => Number(id));
 
     if (!friends.includes(Number(user.id))) {
+      if (err) {
+        process.stderr.write('Error getting friends\n');
+        return;
+      }
+
       process.stdout.write('Following user...');
-      t.twitter.post('friendships/create', {
-        user_id: user.id,
-        follow: false
-      });
+
+      t.twitter.post(
+        'friendships/create',
+        {
+          user_id: user.id,
+          follow: false
+        },
+        function(err, data) {
+          if (err) {
+            process.stderr.write('Error following user\n');
+            return;
+          }
+
+          process.stdout.write('User followed...');
+        }
+      );
     }
   });
 }

@@ -3,6 +3,7 @@ node_modules
 .idea
 /*.iml
 /out.png
+/out.jpg
 /data/db
 /.env
 /logs
