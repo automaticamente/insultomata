@@ -29,7 +29,7 @@ function tweet(buffer, text, reply_id) {
       Link: https://twitter.com/${myself}/status/${id}\n
       `)
     )
-    .catch(error => process.stderr.write(error));
+    .catch(error => process.stderr.write(error.message));
 }
 
 function generateSingle() {
