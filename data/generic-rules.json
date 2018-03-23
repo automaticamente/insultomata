@@ -9,11 +9,12 @@
     "Se foras <accion>, <insulto>",
     "Serás <insulto> e <insulto>",
     "Pero mira que es <insulto>, vai <accion>!!",
-    "Me cagho <orixe> que te <accion_orixe>, <insulto> <modificador>",
     "Vai <accion> <accion_lugar>, <insulto> <sexual_orixe>",
-    "Me cago no dios que te <accion_orixe_extra>, <insulto> <sexual_orixe>"
+    "Me cago <orixe_feminino> que te <accion_orixe>, <insulto> <modificador>",
+    "Me cago <orixe_masculino> que te <accion_orixe_extra>, <insulto> <sexual_orixe>"
   ],
-  "<orixe>": ["na nai", "na <sexual_feminino>", "no pai"],
+  "<orixe_feminino>": ["na nai", "na <sexual_feminino>"],
+  "<orixe_masculino>": ["no dios", "no pai"],
   "<accion_orixe>": ["botou", "cagou", "chimpou"],
   "<accion_orixe_extra>": ["fixo", "fundou", "creou"],
   "<sexual_orixe>": ["do <sexual_masculino>"],
