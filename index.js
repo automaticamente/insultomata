@@ -47,34 +47,23 @@ function generateSingle() {
 
 function followBack(user) {
   //I do not really care about callbacks here
-  t.twitter.get('friends/ids', function(err, data) {
-    const friends = data.ids.map(id => Number(id));
+  process.stdout.write('Following user...');
 
-    if (!friends.includes(Number(user.id))) {
+  t.twitter.post(
+    'friendships/create',
+    {
+      user_id: user.id,
+      follow: false
+    },
+    function(err, data) {
       if (err) {
-        process.stderr.write('Error getting friends\n');
+        process.stderr.write('Error following user\n');
         return;
       }
 
-      process.stdout.write('Following user...');
-
-      t.twitter.post(
-        'friendships/create',
-        {
-          user_id: user.id,
-          follow: false
-        },
-        function(err, data) {
-          if (err) {
-            process.stderr.write('Error following user\n');
-            return;
-          }
-
-          process.stdout.write('User followed...');
-        }
-      );
+      process.stdout.write('User followed...');
     }
-  });
+  );
 }
 
 function generateReply() {
@@ -94,7 +83,9 @@ function generateReply() {
       check followback & posting tweet...\n
       `);
 
-      followBack(user);
+      if (!user.reply_id) {
+        followBack(user);
+      }
 
       genderizer(user.name)
         .then(g => {
