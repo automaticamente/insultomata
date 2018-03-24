@@ -15,7 +15,7 @@ module.exports.generator = function generator(gender) {
   const genderRules = {
     f: {
       '<template>': [
-        'Es unha <insulto> e unha <insulto>, vai <accion> <accion_lugar>',
+        'Es unha <insulto>, vai <accion> <accion_lugar>',
         'Es unha <insulto>',
         'Es unha <insulto> <modificador>'
       ],
@@ -23,7 +23,7 @@ module.exports.generator = function generator(gender) {
     },
     m: {
       '<template>': [
-        'Es un <insulto> e un <insulto>, vai <accion> <accion_lugar>',
+        'Es un <insulto>, vai <accion> <accion_lugar>',
         'Es un <insulto>',
         'Es un <insulto> <modificador>'
       ],
