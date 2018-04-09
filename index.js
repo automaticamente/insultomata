@@ -100,7 +100,7 @@ function generateReply() {
   });
 }
 
-new CronJob('0 0 */4 * * *', generateSingle, null, true, 'Europe/Madrid');
+new CronJob('0 0 */6 * * *', generateSingle, null, true, 'Europe/Madrid');
 new CronJob('0 */2 * * * *', generateReply, null, true, 'Europe/Madrid');
 
 generateSingle();
